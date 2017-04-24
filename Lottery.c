@@ -1,6 +1,7 @@
 #include <stdio.h>
 void main()
 {
+
   int WinLotteryNo[10] = {1234567, 898765, 5515, 7233, 5614, 8876, 1215, 4232, 9155, 9995}; 
   float WinAmount[10] = {111222, 54321, 10000, 5000, 5000, 5000, 5000, 3000, 3000, 3000};
   int N = 10;
@@ -10,7 +11,8 @@ void main()
    
   printf("Enter your Lottery Number (0 to end): "); 
   scanf("%d", &YourLotteryNo); 
-  while (YourLotteryNo != 8999) 
+
+  while (YourLotteryNo != 111111111111) 
   { 
     won = 0; 
     for (i=0;i<N && !won; i++) 
